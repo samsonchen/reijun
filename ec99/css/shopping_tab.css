@@ -1,0 +1,40 @@
+﻿.hiwinner_shopping_tab {
+    margin: -16px 0;
+}
+
+ul.shoppig_tabs,
+ul.shopping_tab,
+ul.shopping_tabs {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+/* 每個頁籤 (li) 的預設樣式 */
+ul.shoppig_tabs li,
+ul.shopping_tab li,
+ul.shopping_tabs li {
+    padding: 10px 15px;
+    border-bottom: none;
+    margin-right: 5px;
+    position: relative;
+    margin-bottom: -1px; /* 讓 li 的下邊框蓋住 ul 的下邊框 */
+}
+
+/* 當頁籤被點擊後，JavaScript 會為其加上 'active' class */
+ul.shoppig_tabs li.active,
+ul.shopping_tab li.active,
+ul.shopping_tabs li.active {
+}
+
+/* 內容區塊的容器 */
+.tab_container {
+    padding: 20px;
+}
+
+/* 每個內容面板的樣式（預設隱藏） */
+.tab_container .tab_content {
+    display: none;
+}
