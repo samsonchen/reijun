@@ -92,7 +92,7 @@
       <ul class="nav navbar-nav navbar-center">
         <li><a href="Profile.html">關於睿均</a> </li>
         <li><a href="Service.html">服務項目</a> </li>
-        <li><a href="Category.asp?category_id=2">相關經歷</a> </li>
+        <li><a href="Category-1.html">相關經歷</a> </li>
         <li><a href="news.html">最新消息</a> </li>
         <li><a href="movie.html">影片專區</a> </li>
         <li><a href="contact.html">聯絡我們</a> </li>
@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   images.forEach(img => {
     img.addEventListener('error', function() {
-      this.src = '/rwd1350/Store/images/lackicon.jpg';
+      this.src = 'images/lackicon.jpg';
       // 移除事件監聽避免無限迴圈
       this.onerror = null; 
     });

@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   images.forEach(img => {
     img.addEventListener('error', function() {
-      this.src = '/rwd1350/Store/images/lackicon.jpg';
+      this.src = 'images/lackicon.jpg';
       // 移除事件監聽避免無限迴圈
       this.onerror = null; 
     });

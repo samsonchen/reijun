@@ -92,7 +92,7 @@
       <ul class="nav navbar-nav navbar-center">
         <li><a href="Profile.html">關於睿均</a> </li>
         <li><a href="Service.html">服務項目</a> </li>
-        <li><a href="Category.asp?category_id=2">相關經歷</a> </li>
+        <li><a href="Category-1.html">相關經歷</a> </li>
         <li><a href="news.html">最新消息</a> </li>
         <li><a href="movie.html">影片專區</a> </li>
         <li><a href="contact.html">聯絡我們</a> </li>
@@ -317,11 +317,11 @@
 				<div class="features-box wow fadeInDown ">
 					<div class="view view-first">
 					    
-						   <a href="product.asp?prodid=N005" >
+						   <a href="product-N005.html" >
 							   <div class="imgBox">
 								<div class="imgBox-inner">
 								 <div class="imgBox-fit">						       
-							   <img class="lazy image-pic" data-original="/rwd1350/Store/bImages/b_pro05.jpg" src="/rwd1350/Store/bImages/b_pro05.jpg"  alt='prod_Image'>
+							   <img class="lazy image-pic" data-original="images/b_pro05.jpg" src="images/b_pro05.jpg"  alt='prod_Image'>
 						         </div>
 								</div>
 							   </div>						   
@@ -331,13 +331,13 @@
 							<h2>吳寶春</h2>
 							<p class="prd_info"></p>
 							
-							<a href="product.asp?prodid=N005" class="info">細節<!--細節--></a>
+							<a href="product-N005.html" class="info">細節<!--細節--></a>
 							
 						</div>
 					</div>
 				  
 						 
-					     <a href="product.asp?prodid=N005&category_id=4"><h4>吳寶春</h4>
+					     <a href="product-N005.html"><h4>吳寶春</h4>
 				
 								
 							
@@ -352,7 +352,7 @@
               	  </div>
                   <!--<button type="button" class="btn btn-danger navbar-btn btn-bg"><span class="glyphicon glyphicon-shopping-cart"></span> 搶購!</button>-->
 				  
-				  <a href="product.asp?prodid=N005" type="button" class="btn btn-default ">詳細介紹<!--詳細介紹--></a>
+				  <a href="product-N005.html" type="button" class="btn btn-default ">詳細介紹<!--詳細介紹--></a>
 				  
 				 </div>
 				 </div>
@@ -374,7 +374,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   images.forEach(img => {
     img.addEventListener('error', function() {
-      this.src = '/rwd1350/Store/images/lackicon.jpg';
+      this.src = 'images/lackicon.jpg';
       // 移除事件監聽避免無限迴圈
       this.onerror = null; 
     });
