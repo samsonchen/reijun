@@ -49,3 +49,7 @@ The site is deployed on GitHub Pages:
 - Repository: `samsonchen/reijun`
 - Custom domain: `24684019.com.tw`
 - Branch: `main`
+
+## Reference
+
+The original content was hosted in HiWinner, DNS A Rec IP: 210.71.232.149
